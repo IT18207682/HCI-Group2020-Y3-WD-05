@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700');
+
+body {
+  overflow-x: hidden;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #505962;
+}
+.btn-purple {
+  border-color: #8366B0;
+  background-color: #8366B0;
+  color: white;
+  margin: 1rem;
+}
+.btn-purple:hover,
+.btn-purple:focus {
+  border-color: #594781;
+  background-color: #594781;
+  color: white;
+}
+
+.feature img {
+  padding: 1.5rem;
+}
+
+/*-- Extra Bootstrap Column Padding --*/
+
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*=========================================================
+   HOT DEAL
+===========================================================*/
+
+#hot-deal.section {
+  padding: 60px 0px;
+  margin: 30px 0px;
+  background-color: #E4E7ED;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.hot-deal {
+  text-align: right;
+}
+
+.hot-deal img{
+  float: left;
+  width: 500px;
+  height: 350px;
+  border-radius: 10%;
+}
+
+.hot-deal .hot-deal-countdown {
+  margin-bottom: 30px;
+}
+
+.hot-deal .hot-deal-countdown>li {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #45489a;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0px 5px;
+}
+
+.hot-deal .hot-deal-countdown>li>div {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.hot-deal .hot-deal-countdown>li>div h3 {
+  color: #FFF;
+  margin-bottom: 0px;
+}
+
+.hot-deal .hot-deal-countdown>li>div span {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.hot-deal p {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.hot-deal .cta-btn {
+  margin-top: 15px;
+}
+
+/*----------------------------*\
+  Buttons
+\*----------------------------*/
+
+.primary-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #45489a;
+  border: none;
+  border-radius: 10px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.primary-btn:hover, .primary-btn:focus {
+  opacity: 0.9;
+  color: #FFF;
+}
+
+
+
+
+
+
+
+
